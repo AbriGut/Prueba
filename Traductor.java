@@ -1,5 +1,5 @@
 package graficos;
-public class Traductor extends javax.swing.JFrame {
+public class Traductor extends javax.swing.JFrame {    
     public Traductor() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -141,7 +141,7 @@ public class Traductor extends javax.swing.JFrame {
                             traduccion.setText(String.valueOf(español[pos]));
                     }
                 else  
-                    traduccion.setText("No existe vuelve a intentar");          
+                    traduccion.setText("La palabra que buscas no existe ATTE: Jimena");          
         n++; 
         }while(band==false & n<58);
     }//GEN-LAST:event_traducirActionPerformed
