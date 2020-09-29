@@ -3,6 +3,7 @@ public class Traductor extends javax.swing.JFrame {
     public Traductor() {
         initComponents();
         this.setLocationRelativeTo(null);
+	System.out.printl("En colaboración con Joel Camacho"): 
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
