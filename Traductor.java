@@ -116,8 +116,8 @@ public class Traductor extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void traducirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_traducirActionPerformed
-        String[] español= {"Estamos contentos de que el trabajo haya salido bien","Trabajamos para México y sus lenguas indigenas","Habla en tu lengua materna frente a los niños","No olvides tu lengua materna","Nuestra lengua es la que habla nustro corazon","Donde quiera que andes habla tu lengua materna","Trabaja bien este mes","Trabaja bien esta semana","Trabaja bien este dia","Buen dia","TONTO","PAPÁ","OJO","NO","NIÑA","MAMÁ","LUZ","KILO","JARRO","PIERNA","GALLINA","CUELLO","CEPILLAR","CABEZA","BOCA","BESOS","BEBE PEQUEÑO","AHIJADO","AGUA","AGOTADO","ABIERTO","ABUELA","ABUELO","ABUELITO","AFUERA","AMARILLO","AMOR","BLANCO","ARBOL","CABALLO","CABELLO","CARNE","COMER","CONEJO","CUATRO","COMIDA","DAR","DIA","DIENTE","DIEZ","DOS","ELLA","EMPEZAR","FIESTA","GATO","GORDO","GRANDE","HERMANA","HERMANO","HIERBA"};
-        String[] otomi= {"Di hoya ra befi bi poni xa hño","Ma Mpefi pa M'onda, ko ma hña","Ña ri hñaki","O gi pumfri ma hñaki ju","Ma hñaje hña ma ndate","Gatho habu gi y'o ña ri ña","Hoga befi gatho ra zana","Hoga tsaya, ga hiandiju nonxi","Hoga befi gatho ra pa","Hoga pa","ngongo","PALE","DO","HJINA","SHUHJTZI","MALE","TZIBI","KILO","SHARÓ","Xinthe","Guade","YUGA","Xachki","ÑA","NE","Tzutane","Tziuene","Thexakjä","DEJE","Xoborokue","SHOHJKI","NGANDE","WELO","Tsindeta","ATHJÍ","T'-ÁSHKI","MADI","T'-ÁSHI","ZZÁ","FANI","SHTA","NGA","TZÍ","KJUÁ","GÓ","HJÑUNI","ÚNI","MPÁ","TZ-Í","URETA","YOHJO","GUEGUE","PHJUHJTI","TZONIGO","MISHI","NOHJKI","NDA","KJUE","KJUADA","PASHI"};
+        String[] español= {"Habla en tu lengua materna frente a los niños","No olvides tu lengua materna","Nuestra lengua es la que habla nustro corazon","Donde quiera que andes habla tu lengua materna","Trabaja bien este mes","Trabaja bien esta semana","Trabaja bien este dia","Buen dia","TONTO","PAPÁ","OJO","NO","NIÑA","MAMÁ","LUZ","KILO","JARRO","PIERNA","GALLINA","CUELLO","CEPILLAR","CABEZA","BOCA","BESOS","BEBE PEQUEÑO","AHIJADO","AGUA","AGOTADO","ABIERTO","ABUELA","ABUELO","ABUELITO","AFUERA","AMARILLO","AMOR","BLANCO","ARBOL","CABALLO","CABELLO","CARNE","COMER","CONEJO","CUATRO","COMIDA","DAR","DIA","DIENTE","DIEZ","DOS","ELLA","EMPEZAR","FIESTA","GATO","GORDO","GRANDE","HERMANA","HERMANO","HIERBA"};
+        String[] otomi= {"Ña ri hñaki","O gi pumfri ma hñaki ju","Ma hñaje hña ma ndate","Gatho habu gi y'o ña ri ña","Hoga befi gatho ra zana","Hoga tsaya, ga hiandiju nonxi","Hoga befi gatho ra pa","Hoga pa","ngongo","PALE","DO","HJINA","SHUHJTZI","MALE","TZIBI","KILO","SHARÓ","Xinthe","Guade","YUGA","Xachki","ÑA","NE","Tzutane","Tziuene","Thexakjä","DEJE","Xoborokue","SHOHJKI","NGANDE","WELO","Tsindeta","ATHJÍ","T'-ÁSHKI","MADI","T'-ÁSHI","ZZÁ","FANI","SHTA","NGA","TZÍ","KJUÁ","GÓ","HJÑUNI","ÚNI","MPÁ","TZ-Í","URETA","YOHJO","GUEGUE","PHJUHJTI","TZONIGO","MISHI","NOHJKI","NDA","KJUE","KJUADA","PASHI"};
         byte n,pos=0;
         boolean band;
         String bus= busqueda.getText();
@@ -140,9 +140,9 @@ public class Traductor extends javax.swing.JFrame {
                             traduccion.setText(String.valueOf(español[pos]));
                     }
                 else  
-                    traduccion.setText("No existe");          
+                    traduccion.setText("No existe vuelve a intentar");          
         n++; 
-        }while(band==false & n<60);
+        }while(band==false & n<58);
     }//GEN-LAST:event_traducirActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
