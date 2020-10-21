@@ -11,5 +11,5 @@ ________
 - formato _cursiva_
 - formato **negrita**
 - formato __negrita__
-- formato ~sub~
+- formato ~~sub~~
 
