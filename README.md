@@ -22,7 +22,7 @@ ________
 
 ## Tabla
 | Nombre | Apellido |
-| _______ | ________ |
+| ------ | ------- |
 | Abril | Gutiérrez |
 
 > esto es una cita
