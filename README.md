@@ -6,6 +6,6 @@ Underline
 __________
 Underline 2
 ________
-#Hola´´
+# Hola
 - formato *cursiva*
 - formato _cursiva_
