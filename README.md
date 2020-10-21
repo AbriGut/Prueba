@@ -9,3 +9,7 @@ ________
 # Hola
 - formato *cursiva*
 - formato _cursiva_
+- formato **negrita**
+- formato __negrita__
+
+
