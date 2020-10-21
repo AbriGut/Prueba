@@ -26,5 +26,7 @@ ________
 | Abril | Gutiérrez |
 
 > esto es una cita
+
 texto normal
+
 > otra cita
