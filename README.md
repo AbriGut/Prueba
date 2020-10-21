@@ -12,4 +12,6 @@ ________
 - formato **negrita**
 - formato __negrita__
 - formato ~~sub~~
-
+1. Hola
+2. Adios
+3. cómo estas
